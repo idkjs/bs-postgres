@@ -6,17 +6,17 @@
   "sources": [{
     "dir" : "src",
     "files": [
-      "Result.ml",
-      "Query.ml",
-      "Pool.ml",
-      "Client.ml"
+      "Result.re",
+      "Query.re",
+      "Pool.re",
+      "Client.re"
     ]
   }, {
     "dir": "test",
     "type": "dev",
     "files": [
-      "Test_Postgres.ml",
-      "Test_Helpers.ml"
+      "Test_Postgres.re",
+      "Test_Helpers.re"
     ]
   }],
   "package-specs": {
@@ -32,6 +32,6 @@
   ],
   "warnings": {
     "error" : "+101",
-    "number": "-102"
+    "number": "-102-48"
   }
 }
