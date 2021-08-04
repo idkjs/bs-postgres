@@ -1,7 +1,7 @@
 {
   "name": "bs-postgres",
   "version": "0.2.0",
-  "namespace": true,
+  "namespace": "BsPostgres",
   "bsc-flags": ["-bs-super-errors"],
   "sources": [{
     "dir" : "src",
